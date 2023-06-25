@@ -24,5 +24,5 @@ for j in range(kust_count):
 max_harvest = max(sum_harvest)
 ind_max_harvest = sum_harvest.index(max_harvest)
 print('')
-print(f'Наибольшая урожайность с одной итерации {max_harvest}')
+print(f'Наибольшая эффективность с одной итерации {max_harvest}')
 print(f'При следующем расположении кустов и ягод на них: {order_of_bushes[ind_max_harvest]}')
